@@ -1,0 +1,36 @@
+.brands {
+  padding: 51px 0 34px 0;
+}
+.brands__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands__logo {
+  display: inline-block;
+}
+
+.insta {
+  background: url("/img/brands/insta.png") no-repeat center;
+  width: 220px;
+  height: 74px;
+}
+
+.twitter {
+  background: url("/img/brands/twitter.png") no-repeat center;
+  width: 242px;
+  height: 45px;
+}
+
+.cnn {
+  background: url("/img/brands/cnn2.png") no-repeat center;
+  width: 130px;
+  height: 60px;
+}
+
+.facebook {
+  background: url("/img/brands/fb.png") no-repeat center;
+  width: 238px;
+  height: 46px;
+}

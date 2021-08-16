@@ -1,0 +1,44 @@
+.promo {
+  padding: 48px 0 81px 0;
+}
+
+.promo__container {
+  @include flex(space-between);
+  .promo__content {
+    max-width: 451px;
+    padding-bottom: 77px;
+  }
+  .content__text {
+    @include font(1.8rem, 3rem, normal);
+    color: $color-text;
+  }
+}
+
+.link-button{
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.promo__buttons {
+  @include flex(flex-start);
+  @include font(1.4rem, 3rem, normal);
+  color: $color-text;
+}
+
+.promo__image {
+  max-width: 576px;
+}
+
+.prom {
+  width: 119px;
+}
+
+.ico_checked {
+  margin-left: 15px;
+  @include bg-img ("/img/icons/checkmark.png",2.4rem)
+}
+
+.acc {
+  max-width: 181px;
+}
+
